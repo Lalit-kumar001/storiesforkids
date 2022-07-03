@@ -1,0 +1,265 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+span{
+    display: inline-block;
+    margin: 8px;
+}
+
+p{
+    /* line-height: 2.2; */
+    font-size: 22px;
+}
+
+i{
+    font-size: 1.6rem;
+}
+
+
+/* header part */
+
+
+#main-heading-div{
+    text-align: center;
+}
+
+#main-heading-para-div{
+    text-align: center;
+}
+
+#main-heading-storyforkids{
+   font: bold 45px Roboto, sans-serif;
+   font-weight: 700;
+   line-height: normal;
+    margin: 0 0 14px;
+    width: 100%;
+}
+
+
+/* sections dimension */
+
+#sec-1{
+    margin-top: 40px;
+}
+.section-dimension{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:1000px;
+    box-sizing: border-box;
+    background-color: #ffffff;;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    box-shadow: 0 1px 4px 0 rgb(60 64 67 / 30%);
+}
+
+
+.section-first-content-box{
+    display: flex;
+}
+
+.date{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.img-box{
+ width: 100%;
+}
+
+.img-box img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.share-button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-foter{
+    /* margin-top: 20px; */
+    display: flex;
+    /* padding: 4%; */
+    padding: 10px;
+    margin-top: 60px;
+
+
+}
+.way-of-contact{
+    width: 80%;
+}
+
+.way-of-contact span{
+    margin-left: 5px;
+}
+
+.link-to-read-more{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+/* image content */
+.image-content{
+    width: 100%;
+    /* border: 3px solid brown; */
+    display: flex;
+    height: 23vh;
+    justify-content: space-between;
+}
+
+.image-content img{
+    /* margin-top: 3%; */
+    height: 100%;
+    width: 90%;
+}
+.story-image{
+    margin-top: 0px;
+    /* padding: 2%; */
+    height: 100%;
+    box-sizing: border-box;
+    /* border: 2px solid */
+}
+/* fotter  */
+#more-post{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 100vw;
+    text-align: center;
+}
+
+/* other footer css */
+
+.other-section-dimension{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:1000px;
+    box-sizing: border-box;
+    border-bottom: 1px black dashed;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+
+    .other-section-foter{
+        margin-top: 70px;
+    
+
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    /* footer  */
+    .blogger{
+        display: flex;
+        justify-content: center;
+        /* margin-bottom: 20px; */
+    }
+
+    .complaint{
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+
+     .para{
+        height: 100%;
+        line-height: 2.1;
+        box-sizing: border-box;
+        white-space: wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 0px;
+  /* border: 1px solid #000000; */
+     } 
+
+     /* share option */
+
+
+     .share-options{
+        height: 250px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color:white ;
+        top: 20px;
+        right: 40px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+        display: none;
+         }
+
+     .individual-option{
+        /* font-size: 14px; */
+        display: flex;
+        justify-content: space-around;
+        height: 20%;
+        background-color: white;
+        margin-top: 5px;
+
+     }
+
+     .individual-option span{
+        font-size: 20px;
+
+        font-weight: 500;
+    
+     }
+
+     
+    /* font size */
+
+    .story-title a{
+       font: bold 1.2em Roboto, sans-serif;
+       color: black;
+    }
+
+    .date a{
+        font: bold 1em Roboto, sans-serif;
+       color: rgb(45, 43, 43);
+    }
+    .way-of-contact a{
+        color: #2196f3;
+    }
+    .link-to-read-more a{
+        color: #2196f3;
+    }
+
+    .blogger a{
+        color: #2196f3;
+    }
+
+    .complaint a{
+   color: rgb(60, 58, 58);
+    }
+    
+    
+.individual-option span a{
+    font-size: 1em;
+    color: black;
+}
+.individual-option:hover{
+    background-color: rgb(136, 135, 135);
+}
